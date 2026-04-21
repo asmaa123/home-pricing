@@ -1,30 +1,44 @@
 ﻿# Home Pricing Prediction
 
-Regression notebook for residential home price prediction.
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Contents
+Build regression models to estimate residential property prices.
 
-- $(System.Collections.Hashtable.File)
+## Project Overview
 
-## Requirements
+This repository contains a focused notebook project that demonstrates end-to-end data analysis and model development, including data preparation, model training, and result interpretation.
 
-- Python 3.9+
-- Jupyter Notebook or JupyterLab
+## Files
 
-Install dependencies:
+- $(System.Collections.Hashtable.Notebook): main notebook for this project.
+- equirements.txt: Python dependencies.
+- LICENSE: project license.
+
+## Quick Start
 
 `ash
-pip install jupyter pandas numpy matplotlib seaborn scikit-learn
-`
-
-## Usage
-
-`ash
+git clone https://github.com/asmaa123/home-pricing.git
+cd home-pricing
+pip install -r requirements.txt
 jupyter notebook
 `
 
-Open the notebook and run cells sequentially.
+## How To Use
+
+1. Open the notebook in Jupyter.
+2. Run cells from top to bottom.
+3. Adjust dataset paths if needed for your local environment.
+
+## Results
+
+The notebook includes model outputs, evaluation metrics, and visualizations relevant to the project objective.
+
+## Author
+
+Asmaa
 
 ## License
 
-MIT License.
+This project is licensed under the MIT License. See LICENSE for details.
